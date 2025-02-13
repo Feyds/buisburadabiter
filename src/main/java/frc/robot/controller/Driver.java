@@ -20,4 +20,12 @@ public class Driver {
     public boolean getWantsToScoreCoral() {
         return controller.getAButton();
     }
+
+    public boolean getWantsToIntakeAlgae() {
+        return controller.getXButton();
+    }
+
+    public boolean getWantsToScoreAlgae() {
+        return controller.getBButton();
+    }
 }
